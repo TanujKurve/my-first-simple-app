@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/download"
+        android:text="I O S Developer"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Coding Languages"/>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="200dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img_11" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="200dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/img_12" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="200dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/img_13" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="200dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/img_14" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:text="In recent years, the mobile app market has seen exponential growth, and there are now millions of apps available for download on both the iOS and Android operating systems. Because of this, businesses require developers that can produce attractive, high-quality apps that stand out in the crowded app market. One of the most coveted among all is iOS developer.
+\n \n The job market has a great demand for qualified iOS developers. iOS development popularly known as “Apple Development”, is so called because the only recruiter of iOS developers is Apple Inc. The world of iOS programming is continually changing, with new tools and features appearing frequently. To remain competitive in the job market, developers must keep up with the most recent advancements and constantly enhance their skills. It can be pleasant and rewarding to combine technical expertise with creative problem-solving while creating an iOS app.
+
+All things considered, working as an iOS developer might be a fantastic career choice for those who appreciate programming, solving issues, and utilizing cutting-edge technology. In this engaging and well-paying industry, you can succeed if you have the necessary qualifications and experience."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/download"
+                android:text="Who’s an iOS Developer?"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="174dp"
+                tools:layout_editor_absoluteY="34dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:text="iOS developer is a software developer with a focus on building apps for Apple Inc.’s iPhone operating system called iOS. Mobile applications for iPhones, iPads, and other iOS devices are designed, created, and maintained by iOS developers. Designing, testing, and implementing apps requires using development tools like XCode, Interface Builder, and the iOS Simulator as well as having an insight into the special features of the iOS platform
+\n \n Some of the particular duties that iOS developers might have to perform include:
+\n \n 1 - Developing iOS application user interfaces
+\n \n 2 - Incorporating services and APIs from third parties into applications
+\n \n 3 - Troubleshooting and debugging application problems
+\n \n 4 - Creating code that is clear, effective, and simple to maintain and alter keeping abreast with the most recent trends and advancements in iOS development
+\n \n In general, iOS developers aim to create high-quality, user-friendly programs that stand out in the crowded app market, so they are integral to the mobile app development process."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/download"
+                android:text="Why Should You Consider iOS Development as a Career Path?"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="174dp"
+                tools:layout_editor_absoluteY="34dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:text="Choosing a profession as an iOS developer can be quite lucrative. Many people find this field appealing due to a number of different aspects in addition to the high salary. Even when there is so much to do in development, still iOS development stands tall among all other app developments. Having talked about this, developing for the iOS platform, using programming languages, and using development tools effectively is a highly specialized subject.
+\n \n Developers that possess these skills are therefore in high demand and are able to charge significant wages. Moreover, when deciding on a career path, aspiring software engineers should take a number of things into account. Salary and job advancement rank among the most important factors.
+\n \n With an average national pay of $114,614, iOS developers rank among the best-paid IT professionals in terms of earning potential. You’ll need to master a few iOS developer abilities if you want to succeed in this field. The App Annie 2017-2022 App Industry Forecast Report estimates that the number of mobile device installs will reach six billion by 2022, up 56 percent from 2017. Even more astonishingly, consumer spending on apps will soar to $157 billion annually, up 92% from 2017."/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

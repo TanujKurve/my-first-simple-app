@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/download"
+        android:text="Android Developer"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:cardCornerRadius="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/img" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/img_1" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/download"
+                android:text="Introduction to Android Development"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="Android operating system is the largest installed base among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 71% of the global market share by the end of 2021, and this trend is growing bigger every other day. The company named Open Handset Alliance developed Android for the first time that is based on the modified version of the Linux kernel and other open-source software. Google sponsored the project at initial stages and in the year 2005, it acquired the whole company. In September 2008, the first Android-powered device was launched in the market. Android dominates the mobile OS industry because of the long list of features it provides. It’s user-friendly, has huge community support, provides a greater extent of customization, and a large number of companies build Android-compatible smartphones. As a result, the market observes a sharp increase in the demand for developing Android mobile applications, and with that companies need smart developers with the right skill set. At first, the purpose of Android was thought of as a mobile operating system. However, with the advancement of code libraries and its popularity among developers of the divergent domain, Android becomes an absolute set of software for all devices like tablets, wearables, set-top boxes, smart TVs, notebooks, etc."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/download"
+                android:text="Features of Android"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="8dp"
+                android:text="Android is a powerful open-source operating system that open-source provides immense features and some of these are listed below.
+\n \n 1 - Android Open Source Project so we can customize the OS based on our requirements.
+\n \n 2 - Android supports different types of connectivity for GSM, CDMA, Wi-Fi, Bluetooth, etc. for telephonic conversation or data transfer.
+\n \n 3 - Using wifi technology we can pair with other devices while playing games or using other applications.
+\n \n 4 - It contains multiple APIs to support location-tracking services such as GPS.
+\n \n 5 - We can manage all data storage-related activities by using the file manager.
+\n \n 6 - It contains a wide range of media supports like AVI, MKV, FLV, MPEG4, etc. to play or record a variety of audio/video.
+\n \n 7 - It also supports different image formats like JPEG, PNG, GIF, BMP, MP3, etc.
+\n \n 8 - It supports multimedia hardware control to perform playback or recording using a camera and microphone.
+\n \n 9 - Android has an integrated open-source WebKit layout-based web browser to support User Interfaces like HTML5, and CSS3.
+\n \n 10 - Android supports multi-tasking means we can run multiple applications at a time and can switch between them.
+\n \n 11 - It provides support for virtual reality or 2D/3D Graphics."/>
+
+            <TextView
+                android:layout_width="327dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/download"
+                android:text="Programming Languages used in Developing Android Applications"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginLeft="8dp"
+                android:text="1 . Java \n \n2 . Kotlin \n \nDeveloping the Android Application using Kotlin is preferred by Google, as Kotlin is made an official language for Android Development, which is developed and maintained by JetBrains. Previously before Java is considered the official language for Android Development. Kotlin is made official for Android Development in Google I/O 2017."/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
