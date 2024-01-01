@@ -1,1 +1,1 @@
-my first simple app 
+my first simple kotlin app
